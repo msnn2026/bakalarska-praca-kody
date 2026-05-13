@@ -1,7 +1,7 @@
 # Zdrojové kódy k bakalárskej práci
 
 Tento repozitár obsahuje zdrojové kódy a experimenty použité v praktickej
-časti bakalárskej práce zameranej na matematické princípy neurónových sietí.
+časti bakalárskej práce zameranej na matematiku neurónových sietí.
 
 ## Obsah repozitára
 
