@@ -40,10 +40,10 @@ redistribuovaný; vyššie uvádzame odkaz na pôvodný zdroj.
 
 - Snažil som sa jednotlivé kódy spracovať čo do najjednoduchšej podoby, aby im porozumeli aj študenti matematiky, ktorí s pythonom začínajú.
 - Používam metódu "from scratch", resp. kódy nie sú optimalizované, ale za to sa im dá lepšie chápať
-- V priebehu komentujem postupy, ktoré sú klúčové (ľudskou rečou)
+- V priebehu komentujem postupy, ktoré sú kľúčové (ľudskou rečou)
 - Na niektoré manuálne časti kódov (grafy, vypisovanie údajov, opravy mojich výmyslov) som použil asistenciu UI (model GPT-5.5 Thinking)
-- Problém s UI je, že dá extrémne optimalilzovaný kód na polovicu riadkov (často tomu ako matematik nechápem)
-- Najviac odporúčam online prednášky na YouTube, potom oficiány GitHub s kódmi 
+- Problém s UI je, že dá extrémne optimalizovaný kód na polovicu riadkov (často tomu ako matematik nechápem)
+- Najviac odporúčam online prednášky na YouTube (cca 20 hodín), potom oficiány GitHub s kódmi (tu sú aj modely optimalizované cez PyTorch) 
 - Spomínam aj licencie, aj keď je moja práce hlavne edukatívna (nie publikačná)
 
 
