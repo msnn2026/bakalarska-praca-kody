@@ -36,6 +36,19 @@ Dataset slúži iba ako vstupný tréningový súbor pre experimenty v prakticke
 časti bakalárskej práce. V tomto repozitári nie je dataset upravovaný ani
 redistribuovaný; vyššie uvádzame odkaz na pôvodný zdroj.
 
+## Moje poznámky
+
+Snažil som sa jednotlivé kódy spracovať čo do najjednoduchšej podoby, aby im porozumeli aj študenti matematiky, ktorí s pythonom začínajú.
+Používam metódu "from scratch", resp. kódy nie sú optimalizované, ale za to sa im dá lepšie chápať
+V priebehu komentujem postupy, ktoré sú klúčové (ľudskou rečou)
+Na niektoré manuálne časti kódov (grafy, vypisovanie údajov, opravy mojich výmyslov) som použil asistenciu UI (model GPT-5.5 Thinking)
+Problém s UI je, že dá extrémne optimalilzovaný kód na polovicu riadkov (často tomu ako matematik nechápem)
+Najviac odporúčam online prednášky na YouTube, potom oficiány GitHub s kódmi 
+Spomínam aj licencie, moja práce je hlavne edukatívna nie publikačná
+
+
+
+
 Licencia pôvodného projektu Protego je dostupná v jeho oficiálnom repozitári:
 
 https://github.com/scrapy/protego/blob/master/LICENSE
