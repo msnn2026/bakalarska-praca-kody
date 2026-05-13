@@ -18,7 +18,7 @@ Oficiálny repozitár:
 https://github.com/karpathy/nn-zero-to-hero
 
 Pôvodné materiály sú dostupné pod licenciou MIT. Licenčné oznámenie pôvodného
-autora je uvedené v súbore `LICENSE-KARPATHY.md`.
+autora je uvedené v súbore [LICENSE-KARPATHY.md](LICENSE-KARPATHY.md).
 
 Kódy v tomto repozitári boli upravené a spracované pre potreby bakalárskej
 práce so zameraním na matematické vysvetlenie doprednej propagácie, spätnej
