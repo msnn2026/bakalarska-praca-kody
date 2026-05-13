@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 #vstupné dáta a cieľový vektor
+
 X = np.array([ 
     [ 1.5, -0.8,  0.3],
     [ 0.2,  1.3, -1.5],
@@ -24,9 +25,9 @@ def ReLU(x): #rectified linear unit + príslušná derivácia
     d_ReLU = np.where(x > 0, 1.0, 0.0)
     return ReLU, d_ReLU #indexy [0] a [1]
 
+################################################################################
 def trening(metoda, aktivacna_f):
     #inicializácia váh
-    np.random.seed(48) #náhodne vyberáme vzorky pre SGD
     W1 = np.array([[0.2, -0.1, 0.1],
                    [-0.1, 0.1, 0.2]])
     b1 = np.array([0.1, -0.1])
@@ -45,16 +46,18 @@ def trening(metoda, aktivacna_f):
         L = 0.0
         for i in range(len(X)):
             y_hat = dopredna_propagacia(X[i])[0]
-            L += (y_hat - Y[i])**2
+            L += (y_hat - Y[i])**2 #tu používame kvadratickú strat. f.
         return L
     losses = []
 
+    np.random.seed(48) #náhodne vyberáme vzorky pre SGD
     for k in range(n_iter + 1):
         if metoda == "SGD":
             vzorka = [np.random.randint(len(X))] #náhodny výber
         elif metoda == "GD":
             vzorka = range(len(X)) #0,1,2,3
 
+        #parciálne derivácia na začiatku iterácie vynulujeme
         dW1, db1 = np.zeros_like(W1), np.zeros_like(b1)
         dW2, db2 = np.zeros_like(W2), np.zeros_like(b2)
 
@@ -65,12 +68,11 @@ def trening(metoda, aktivacna_f):
             dL_dy = 2 * (y_hat - Y[i])
             dW2 += dL_dy * a1.reshape(1, -1)
             db2 += dL_dy
-            dL_da1 = dL_dy * W2[0] 
-            #index [0] prevedie výsledok na vektor
-            dL_dz1 = dL_da1 * aktivacna_f(z1)[1] 
-            #index [0] predstavuje deriváciu aktivačnej funkcie
+            dL_da1 = dL_dy * W2[0] #index [0] prevedie výsledok na vektor
+            dL_dz1 = dL_da1 * aktivacna_f(z1)[1] #index [1] predstavuje deriváciu aktivačnej funkcie
             dW1 += np.outer(dL_dz1, X[i])
             db1 += dL_dz1
+
         #aktualizácia parametrov (gradient delíme počtom vzoriek)
         W1 -= eta * dW1 / len(vzorka) 
         b1 -= eta * db1 / len(vzorka)
@@ -78,16 +80,14 @@ def trening(metoda, aktivacna_f):
         b2 -= eta * db2 / len(vzorka)
         losses.append(stratova_f())
 
-        if k % 50 == 0: 
-        #hodnota strat. funkcie po každých 50 iteráciach
+        if k % 50 == 0:  # sledujeme hodnotu strat. funkcie v každých 50 iteráciach
             predikcie = []
             for j in range(len(X)):
                 predikcie.append(dopredna_propagacia(X[j])[0])
-            print(
-                f"iteracia {k}: loss = {stratova_f():.4f}, "
-                f"odhad = = {np.round(predikcie,4)}"
-                )
+            print(f"iteracia {k}: loss = {stratova_f():.4f}, " f"odhad = = {np.round(predikcie,4)}")
     return losses
+
+################################################################################
 
 loss_gd_tanh = trening("GD",tanh); print()
 loss_gd_sigmoid = trening("GD",sigmoid); print()
