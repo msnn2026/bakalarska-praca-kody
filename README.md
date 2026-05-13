@@ -11,7 +11,7 @@ Tento repozitár obsahuje zdrojové kódy a experimenty použité v praktickej
 
 ## Poznámka k pôvodu implementácií
 
-Implementačné myšlienky a časti kódu v tomto repozitári vychádzajú
+Myšlienky a časti kódu v tomto repozitári vychádzajú
 zo vzdelávacieho kurzu Andreja Karpathyho *Neural Networks: Zero to Hero*.
 
 Oficiálny repozitár:
@@ -44,7 +44,7 @@ redistribuovaný; vyššie uvádzame odkaz na pôvodný zdroj.
 - Na niektoré manuálne časti kódov (grafy, vypisovanie údajov, opravy mojich výmyslov) som použil asistenciu UI (model GPT-5.5 Thinking)
 - Problém s UI je, že dá extrémne optimalilzovaný kód na polovicu riadkov (často tomu ako matematik nechápem)
 - Najviac odporúčam online prednášky na YouTube, potom oficiány GitHub s kódmi 
-- Spomínam aj licencie, moja práce je hlavne edukatívna nie publikačná
+- Spomínam aj licencie, aj keď je moja práce hlavne edukatívna (nie publikačná)
 
 
 
