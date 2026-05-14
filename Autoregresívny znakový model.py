@@ -191,7 +191,7 @@ for j in range(10): #chceme 10 generovaní
         #vyberieme 10 najväčších pravdepodobnostných hodnôt pre znaky (aj indexy týchto znakov)
         hodnoty, indexy = torch.topk(pravdep_vektor, 10, dim=1) 
         novy_pravdep_vektor = hodnoty / hodnoty.sum(dim=1,keepdim=True) #dostávame nové hodnoty
-        #vyberáme cez multinomiáone s 1 pokusom (tzv. kategoriálne rozdelenie)
+        #vyberáme cez multinomiálne s 1 pokusom (tzv. kategoriálne rozdelenie)
         vybrany_index = torch.multinomial(novy_pravdep_vektor,num_samples=1).item()
         index = indexy[0, vybrany_index].item()
         kontext = kontext[1:] + [index] 
