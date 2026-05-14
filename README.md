@@ -41,7 +41,6 @@ Dataset slúži iba ako vstupný tréningový súbor pre experimenty v prakticke
 - Používam metódu "from scratch", resp. kódy nie sú optimalizované, ale za to sa im dá lepšie chápať
 - V priebehu komentujem postupy, ktoré sú kľúčové (ľudskou rečou)
 - Na niektoré manuálne časti kódov (grafy, vypisovanie údajov, opravy mojich výmyslov) som použil asistenciu UI (model GPT-5.5 Thinking)
-- Problém s UI je, že dá extrémne optimalizovaný kód na polovicu riadkov (často tomu ako matematik nechápem)
 - Najviac odporúčam online prednášky na YouTube (cca 20 hodín), potom oficiány GitHub s kódmi (tu sú aj modely optimalizované cez PyTorch) 
 - Spomínam aj licencie, aj keď je moja práca hlavne edukatívna (nie publikačná)
 
