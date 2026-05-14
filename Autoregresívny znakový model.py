@@ -54,7 +54,7 @@ print("Y.shape =", Y.shape)
 ################################################################################
 
 pocet_znakov = len(index_na_znak) #39 znakov
-#hyperparametre
+#hyperparametre (neuvádzame kód pre kažkú modifikáciu modelu, jedná sa iba o zmenu hyperparametrov)
 pocet_predchodcov, embedding = 6, 8
 vrstva1, vrstva2 = 64, 64 #počet neurónov v jednej vrste
 mini_batch, iteracie = 128, 50000
