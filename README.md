@@ -7,7 +7,7 @@ Tento repozitár obsahuje zdrojové kódy a experimenty použité v praktickej
 
 - aproximačná neurónová sieť,
 - autoregresívny znakový model,
-- inicializácia parametrov a stabilita aktivácií,
+- vplyv inicializácie váh na disperziu výstupu lineárnej vrstvy
 
 ## Poznámky k pôvodu implementácií
 
