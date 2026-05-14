@@ -1,0 +1,142 @@
+Výsledky modelov (hyperparametre, čas tréningu, tr/val loss, výstup)
+
+**********************************************************************
+
+Počet parametrov: 1023
+pocet_predchodcov, embedding = 4, 4
+vrstva1, vrstva2 = 12, 12 #počet neurónov v jednej vrste
+mini_batch, iteracie = 128, 50000
+Celkový čas tréningu: 0 min 32.8 s
+train loss: 1.7690539360046387
+val loss: 1.7551826238632202
+
+www.tontlanaen.com
+ww.tresanrc.com
+adle.cimsh.com
+www.sala.com
+www.carea.com
+www.tolt.com
+www.sor.com
+www.bhicos.com
+www.sanil.chhire.com
+www.sin.co.ud
+
+**********************************************************************
+Počet parametrov: 5169
+pocet_predchodcov, embedding = 4, 6
+vrstva1, vrstva2 = 48, 42 #počet neurónov v jednej vrste
+mini_batch, iteracie = 128, 50000
+Celkový čas tréningu: 0 min 35.9 s
+train loss: 1.609656810760498
+val loss: 1.6317579746246338
+
+www.stanle.org
+www.acrie.com
+dralegatu.edithlolingigalan.gov.st
+www.ecrnotim.net
+www.malonsolacare.com
+www.boall.com
+www.andalooture.com
+www.pere.com
+www.metro.gort.com
+www.csu.ancieslastyer.com
+
+**********************************************************************
+Počet parametrov: 10143
+pocet_predchodcov, embedding = 6, 8
+vrstva1, vrstva2 = 64, 64 #počet neurónov v jednej vrste
+mini_batch, iteracie = 128, 50000
+Celkový čas tréningu: 0 min 37.7 s
+train loss: 1.5471959114074707
+val loss: 1.600834846496582
+
+www.chervoadea.com
+www.uninatap.ac.jp
+www.pifor.com
+www.miteowle.com
+www.cheris.com
+www.colltin.com
+www.utceru.gov.pk
+www.nesserita.com
+www.posuron.ac.com
+www.cra.org
+
+**********************************************************************
+Počet parametrov: 14987
+pocet_predchodcov, embedding = 6, 12
+vrstva1, vrstva2 = 80, 72 #počet neurónov v jednej vrste
+mini_batch, iteracie = 128, 50000
+Celkový čas tréningu: 0 min 41.2 s
+train loss: 1.4894986152648926
+val loss: 1.5768086910247803
+
+www.chamum.com
+www.aresingankionalyscont.edu
+www.crnass.edu
+phropee.com
+www.bustarsnes.com
+www.allebank.com
+www.sache.com
+www.tromitont.com
+www.cortaetworkstwore.gov
+www.sipetilucam.com
+
+**********************************************************************
+Počet parametrov: 20571
+pocet_predchodcov, embedding = 6, 12
+vrstva1, vrstva2 = 96, 96 #počet neurónov v jednej vrste
+mini_batch, iteracie = 128, 50000
+Celkový čas tréningu: 0 min 41.9 s
+train loss: 1.4381632804870605
+val loss: 1.5649738311767578
+
+www.shoonit.com
+www.aued.com
+clanestiens.edu
+www.sas.edu.pu
+carnch.com
+www.dru.edu.hk
+www.ntra.edu
+www.adubus.com
+www.souce.org
+mpers.com
+
+**********************************************************************
+Počet parametrov: 30265
+pocet_predchodcov, embedding = 8, 14
+vrstva1, vrstva2 = 112, 112 #počet neurónov v jednej vrste
+mini_batch, iteracie = 128, 50000
+Celkový čas tréningu: 0 min 44.4 s
+train loss: 1.376770257949829
+val loss: 1.6308733224868774
+
+www.sonyla.org
+www.ausoc.com
+porumence.com
+www.theptedw.ac.uk
+www.barta.edu
+www.aleltordporkhtank.com
+www.ups.gov
+www.shotadon.chtars.com
+www.ader.com
+bit.gre.cu
+
+**********************************************************************
+Počet parametrov: 40735
+pocet_predchodcov, embedding = 8, 16
+vrstva1, vrstva2 = 136, 128 #počet neurónov v jednej vrste
+mini_batch, iteracie = 128, 50000
+Celkový čas tréningu: 0 min 48.9 s
+train loss: 1.3275530338287354
+val loss: 1.5979890823364258
+
+www.chacriclipal.com
+sc.nic.gh
+www.avdit.gov.in
+www.chritionncalonel.com
+www.bbc.gov
+www.si.gov
+www.seapsogu.com
+www.thesian.com
+develun.com
+www.sunders.com
