@@ -9,7 +9,7 @@ Tento repozitár obsahuje zdrojové kódy a experimenty použité v praktickej
 - autoregresívny znakový model,
 - inicializácia parametrov a stabilita aktivácií,
 
-## Poznámka k pôvodu implementácií
+## Poznámky k pôvodu implementácií
 
 Myšlienky a časti kódu v tomto repozitári vychádzajú
 zo vzdelávacieho kurzu Andreja Karpathyho *Neural Networks: Zero to Hero*.
@@ -25,7 +25,7 @@ Kódy v tomto repozitári boli upravené a spracované pre potreby bakalárskej
 práce so zameraním na matematické vysvetlenie doprednej propagácie, spätnej
 propagácie, optimalizácie a stability učenia neurónových sietí.
 
-## Poznámka k použitému datasetu
+## Poznámky k použitému datasetu
 
 Pri trénovaní autoregresívneho znakového modelu bol použitý dataset
 `top-10000-websites.txt`, dostupný v repozitári projektu Protego:
@@ -44,7 +44,7 @@ redistribuovaný; vyššie uvádzame odkaz na pôvodný zdroj.
 - Na niektoré manuálne časti kódov (grafy, vypisovanie údajov, opravy mojich výmyslov) som použil asistenciu UI (model GPT-5.5 Thinking)
 - Problém s UI je, že dá extrémne optimalizovaný kód na polovicu riadkov (často tomu ako matematik nechápem)
 - Najviac odporúčam online prednášky na YouTube (cca 20 hodín), potom oficiány GitHub s kódmi (tu sú aj modely optimalizované cez PyTorch) 
-- Spomínam aj licencie, aj keď je moja práce hlavne edukatívna (nie publikačná)
+- Spomínam aj licencie, aj keď je moja práca hlavne edukatívna (nie publikačná)
 
 
 
