@@ -5,8 +5,8 @@ Tento repozitár obsahuje zdrojové kódy a experimenty použité v praktickej
 
 ## Obsah repozitára
 
-- aproximačná neurónová sieť,
-- autoregresívny znakový model,
+- aproximačná neurónová sieť
+- autoregresívny znakový model
 - vplyv inicializácie váh na disperziu výstupu lineárnej vrstvy
 
 ## Poznámky k pôvodu implementácií
@@ -33,8 +33,7 @@ Pri trénovaní autoregresívneho znakového modelu bol použitý dataset
 https://github.com/scrapy/protego/blob/master/tests/top-10000-websites.txt
 
 Dataset slúži iba ako vstupný tréningový súbor pre experimenty v praktickej
-časti bakalárskej práce. V tomto repozitári nie je dataset upravovaný ani
-redistribuovaný; vyššie uvádzame odkaz na pôvodný zdroj.
+časti bakalárskej práce. V tomto repozitári nie je dataset upravovaný (vyššie uvádzame odkaz na pôvodný zdroj).
 
 ## Moje poznámky
 
