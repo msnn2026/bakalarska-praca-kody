@@ -1,10 +1,16 @@
 Výsledky modelov (hyperparametre, čas tréningu, tr/val loss, výstup)
 
-**********************************************************************
+Pozn:
+Vygenerované reťazce závisia od zvoleného seedu. 
+Objavujú sa tak aj pekné, aj škaredé reťazce pre všetky typy modelov. 
+Model ako taký zjavne dokáže vygenerovať aj sľubné adresy pri malom počte parametrov. 
+V takomto prípade netreba pozerať na daný výstup, ale práve na hodnoty tréningovej a validačnej stratovej funkcie.
+Ak chcete tieto modely testovať, skopírujte si prvé tri riadky z daného modelu a dajte ich do hlavného kódu.
 
+**********************************************************************
 Počet parametrov: 1023
 pocet_predchodcov, embedding = 4, 4
-vrstva1, vrstva2 = 12, 12 #počet neurónov v jednej vrste
+vrstva1, vrstva2 = 12, 12 
 mini_batch, iteracie = 128, 50000
 Celkový čas tréningu: 0 min 32.8 s
 train loss: 1.7690539360046387
@@ -20,11 +26,10 @@ www.sor.com
 www.bhicos.com
 www.sanil.chhire.com
 www.sin.co.ud
-
 **********************************************************************
 Počet parametrov: 5169
 pocet_predchodcov, embedding = 4, 6
-vrstva1, vrstva2 = 48, 42 #počet neurónov v jednej vrste
+vrstva1, vrstva2 = 48, 42 
 mini_batch, iteracie = 128, 50000
 Celkový čas tréningu: 0 min 35.9 s
 train loss: 1.609656810760498
@@ -40,11 +45,10 @@ www.andalooture.com
 www.pere.com
 www.metro.gort.com
 www.csu.ancieslastyer.com
-
 **********************************************************************
 Počet parametrov: 10143
 pocet_predchodcov, embedding = 6, 8
-vrstva1, vrstva2 = 64, 64 #počet neurónov v jednej vrste
+vrstva1, vrstva2 = 64, 64 
 mini_batch, iteracie = 128, 50000
 Celkový čas tréningu: 0 min 37.7 s
 train loss: 1.5471959114074707
@@ -60,11 +64,10 @@ www.utceru.gov.pk
 www.nesserita.com
 www.posuron.ac.com
 www.cra.org
-
 **********************************************************************
 Počet parametrov: 14987
 pocet_predchodcov, embedding = 6, 12
-vrstva1, vrstva2 = 80, 72 #počet neurónov v jednej vrste
+vrstva1, vrstva2 = 80, 72 
 mini_batch, iteracie = 128, 50000
 Celkový čas tréningu: 0 min 41.2 s
 train loss: 1.4894986152648926
@@ -80,11 +83,10 @@ www.sache.com
 www.tromitont.com
 www.cortaetworkstwore.gov
 www.sipetilucam.com
-
 **********************************************************************
 Počet parametrov: 20571
 pocet_predchodcov, embedding = 6, 12
-vrstva1, vrstva2 = 96, 96 #počet neurónov v jednej vrste
+vrstva1, vrstva2 = 96, 96 
 mini_batch, iteracie = 128, 50000
 Celkový čas tréningu: 0 min 41.9 s
 train loss: 1.4381632804870605
@@ -100,11 +102,10 @@ www.ntra.edu
 www.adubus.com
 www.souce.org
 mpers.com
-
 **********************************************************************
 Počet parametrov: 30265
 pocet_predchodcov, embedding = 8, 14
-vrstva1, vrstva2 = 112, 112 #počet neurónov v jednej vrste
+vrstva1, vrstva2 = 112, 112 
 mini_batch, iteracie = 128, 50000
 Celkový čas tréningu: 0 min 44.4 s
 train loss: 1.376770257949829
@@ -120,11 +121,10 @@ www.ups.gov
 www.shotadon.chtars.com
 www.ader.com
 bit.gre.cu
-
 **********************************************************************
 Počet parametrov: 40735
 pocet_predchodcov, embedding = 8, 16
-vrstva1, vrstva2 = 136, 128 #počet neurónov v jednej vrste
+vrstva1, vrstva2 = 136, 128 
 mini_batch, iteracie = 128, 50000
 Celkový čas tréningu: 0 min 48.9 s
 train loss: 1.3275530338287354
@@ -140,3 +140,4 @@ www.seapsogu.com
 www.thesian.com
 develun.com
 www.sunders.com
+**********************************************************************
