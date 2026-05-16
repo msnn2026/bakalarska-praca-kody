@@ -1,13 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
-#vstupné dáta a cieľový vektor
 
+#vstupné dáta a cieľový vektor
 X = np.array([ 
     [ 1.5, -0.8,  0.3],
     [ 0.2,  1.3, -1.5],
     [-1.2,  0.4,  1.1],
     [-0.7, -1.4,  0.6],])
-Y = np.array([0.9, -0.8, 0.4, 0.7])
+y = np.array([0.9, -0.8, 0.4, 0.7])
 eta, n_iter= 0.03, 300
 
 def tanh(x): #hyperbolický tangens + príslušná derivácia
@@ -46,7 +46,7 @@ def trening(metoda, aktivacna_f):
         L = 0.0
         for i in range(len(X)):
             y_hat = dopredna_propagacia(X[i])[0]
-            L += (y_hat - Y[i])**2 #tu používame kvadratickú strat. f.
+            L += (y[i] - y_hat)**2 #tu používame kvadratickú strat. f.
         return L
     losses = []
 
@@ -65,7 +65,7 @@ def trening(metoda, aktivacna_f):
             #dopredná propagácia
             y_hat, z1, a1 = dopredna_propagacia(X[i])
             #spätná propagácia
-            dL_dy = 2 * (y_hat - Y[i])
+            dL_dy = 2 * (y_hat - y[i])
             dW2 += dL_dy * a1.reshape(1, -1)
             db2 += dL_dy
             dL_da1 = dL_dy * W2[0] #index [0] prevedie výsledok na vektor
